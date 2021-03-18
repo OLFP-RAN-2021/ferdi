@@ -1,0 +1,16 @@
+<div id ="Experiences" class="sousTitre">
+    <h2> Expériences</h2>
+    <p> 2018 Dessinateur en bâtiment (auto-entrepreneur).</p>
+    <p> 2017 Réalisation bande dessinée "Les aventures extraordinaire</p>
+    <p> du grand Diafoirus", projet personnel.</p>
+    <p> 2016 Préparateur automobile chez AutoPro Services, plusieurs concessionnaires (Nissan, Kia, Peugeot, BMW).</p>
+    <P> 2009/2012 Animateur au Club des jeunes à Colmar, par la mairie (centre de gestion).</P> 
+    <p> Cariste chez Peugeot Mulhouse, équipe de nuit.</p>   
+</div>
+<div id ="Informatique" class="sousTitre">
+    <h2> Informatique</h2>
+    <p> Connaissance langage LUA et LOVE2D.</p>                    
+    <p> HTML/CSS/JAVASCRIPT.</p>                   
+    <p> Photoshop, Aseprite.</p>                 
+    <p> Revit 2019, Archicad 23, Archiwizard 2018 , sketchup 2020 </p>
+</div>
