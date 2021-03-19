@@ -69,21 +69,20 @@ ol li a{
       "inf";
   }
   
-  .Formations { grid-area: Formations; display: flex; 
+.Formations { grid-area: Formations; display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .Experiences { grid-area: Experiences; display: flex; 
+.Experiences { grid-area: Experiences; display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .Informatique { grid-area: Informatique; display: flex; 
+.Informatique { grid-area: Informatique; display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .for {
+.for {
     display: grid;
-
     border:  solid rgb(66, 66, 66) 5px;
     padding: 50px;
     grid-template-columns: 0.4fr 1.6fr;
@@ -94,9 +93,8 @@ ol li a{
     grid-area: for;
   }
   
-  .dte1 {
+.dte1 {
     display: grid;
-
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
@@ -112,39 +110,39 @@ ol li a{
     grid-area: dte1;
   }
   
-  .date1 { grid-area: date1; background-color: grey; color: #b8b8b8;          display: flex; 
+.date1 { grid-area: date1; background-color: grey; color: #b8b8b8;          display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .date2 { grid-area: date2; display: flex; 
+.date2 { grid-area: date2; display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .date3 { grid-area: date3; background-color: grey; color: #b8b8b8;          display: flex; 
+.date3 { grid-area: date3; background-color: grey; color: #b8b8b8;          display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .date4 { grid-area: date4; display: flex; 
+.date4 { grid-area: date4; display: flex; 
     justify-content: center; 
     align-items: center; }
   
-  .date5 { grid-area: date5; background-color: grey; color: #b8b8b8;          display: flex; 
+.date5 { grid-area: date5; background-color: grey; color: #b8b8b8;          display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .date6 { grid-area: date6; display: flex; 
+.date6 { grid-area: date6; display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .date7 { grid-area: date7; background-color: grey; color: #b8b8b8;          display: flex; 
+.date7 { grid-area: date7; background-color: grey; color: #b8b8b8;          display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .date8 { grid-area: date8; display: flex; 
+.date8 { grid-area: date8; display: flex; 
     justify-content: center; 
     align-items: center;}
   
-  .def1 {
+.def1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -161,23 +159,23 @@ ol li a{
     grid-area: def1;
   }
   
-  .def01 { grid-area: def01; background-color: grey; color: #b8b8b8;}
-  
-  .def02 { grid-area: def02; }
-  
-  .def03 { grid-area: def03; background-color: grey; color: #b8b8b8;}
-  
-  .def04 { grid-area: def04; }
-  
-  .def05 { grid-area: def05; background-color: grey; color: #b8b8b8;}
-  
-  .def06 { grid-area: def06; }
-  
-  .def07 { grid-area: def07; background-color: grey; color: #b8b8b8;}
-  
-  .def08 { grid-area: def08; }
-  
-  .exp {
+.def01 { grid-area: def01; background-color: grey; color: #b8b8b8;}
+
+.def02 { grid-area: def02; }
+
+.def03 { grid-area: def03; background-color: grey; color: #b8b8b8;}
+
+.def04 { grid-area: def04; }
+
+.def05 { grid-area: def05; background-color: grey; color: #b8b8b8;}
+
+.def06 { grid-area: def06; }
+
+.def07 { grid-area: def07; background-color: grey; color: #b8b8b8;}
+
+.def08 { grid-area: def08; }
+
+.exp {
     display: grid;
     padding: 50px;
     border:  solid rgb(66, 66, 66) 5px;
