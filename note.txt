@@ -14,3 +14,246 @@
     <p> Photoshop, Aseprite.</p>                 
     <p> Revit 2019, Archicad 23, Archiwizard 2018 , sketchup 2020 </p>
 </div>
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "sousContainer1"
+    "sousContainer2"
+    "sousContainer3";
+}
+
+.sousContainer1 {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "date def";
+  grid-area: sousContainer1;
+}
+
+.def {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "def1"
+    "def2"
+    "def3"
+    "def4"
+    "def5"
+    "def6"
+    "def7"
+    "def8";
+  grid-area: def;
+}
+
+.def8 { grid-area: def8; }
+
+.def7 { grid-area: def7; }
+
+.def6 { grid-area: def6; }
+
+.def5 { grid-area: def5; }
+
+.def4 { grid-area: def4; }
+
+.def3 { grid-area: def3; }
+
+.def2 { grid-area: def2; }
+
+.def1 { grid-area: def1; }
+
+.date {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "date01"
+    "date02"
+    "date03"
+    "date04"
+    "date05"
+    "date06"
+    "date07"
+    "date08";
+  grid-area: date;
+}
+
+.date08 { grid-area: date08; }
+
+.date07 { grid-area: date07; }
+
+.date06 { grid-area: date06; }
+
+.date05 { grid-area: date05; }
+
+.date04 { grid-area: date04; }
+
+.date03 { grid-area: date03; }
+
+.date02 { grid-area: date02; }
+
+.date01 { grid-area: date01; }
+
+.sousContainer2 {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "date2 def_2";
+  grid-area: sousContainer2;
+}
+
+.date2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "date2_1"
+    "date2_2"
+    "date2_3"
+    "date2_4"
+    "date2-5";
+  grid-area: date2;
+}
+
+.date2-5 { grid-area: date2-5; }
+
+.date2_4 { grid-area: date2_4; }
+
+.date2_3 { grid-area: date2_3; }
+
+.date2_2 { grid-area: date2_2; }
+
+.date2_1 { grid-area: date2_1; }
+
+.def_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "def2_1"
+    "def2_2"
+    "def2_3"
+    "def2_4"
+    "def2_5";
+  grid-area: def_2;
+}
+
+.def2_1 { grid-area: def2_1; }
+
+.def2_2 { grid-area: def2_2; }
+
+.def2_3 { grid-area: def2_3; }
+
+.def2_4 { grid-area: def2_4; }
+
+.def2_5 { grid-area: def2_5; }
+
+.sousContainer3 {
+  display: grid;
+  grid-template-columns: 0.4fr 1.6fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". def_3";
+  grid-area: sousContainer3;
+}
+
+.def_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "def3_1"
+    "def3_2"
+    "def3_3"
+    "def3_4";
+  grid-area: def_3;
+}
+
+.def3_1 { grid-area: def3_1; }
+
+.def3_2 { grid-area: def3_2; }
+
+.def3_3 { grid-area: def3_3; }
+
+.def3_4 { grid-area: def3_4; }
+
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.grid-container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+-html
+
+<div class="grid-container">
+  <div class="sousContainer1">
+    <div class="def">
+      <div class="def8"></div>
+      <div class="def7"></div>
+      <div class="def6"></div>
+      <div class="def5"></div>
+      <div class="def4"></div>
+      <div class="def3"></div>
+      <div class="def2"></div>
+      <div class="def1"></div>
+    </div>
+    <div class="date">
+      <div class="date08"></div>
+      <div class="date07"></div>
+      <div class="date06"></div>
+      <div class="date05"></div>
+      <div class="date04"></div>
+      <div class="date03"></div>
+      <div class="date02"></div>
+      <div class="date01"></div>
+    </div>
+  </div>
+  <div class="sousContainer2">
+    <div class="date2">
+      <div class="date2-5"></div>
+      <div class="date2_4"></div>
+      <div class="date2_3"></div>
+      <div class="date2_2"></div>
+      <div class="date2_1"></div>
+    </div>
+    <div class="def_2">
+      <div class="def2_1"></div>
+      <div class="def2_2"></div>
+      <div class="def2_3"></div>
+      <div class="def2_4"></div>
+      <div class="def2_5"></div>
+    </div>
+  </div>
+  <div class="sousContainer3">
+    <div class="def_3">
+      <div class="def3_1"></div>
+      <div class="def3_2"></div>
+      <div class="def3_3"></div>
+      <div class="def3_4"></div>
+    </div>
+  </div>
+</div>
