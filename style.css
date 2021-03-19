@@ -52,131 +52,239 @@ ol li a{
     justify-content: space-between;
 }
 
-.container1{
+.container1 {
     padding-top: 50px;
     width:70%;
     background-color:#b8b8b8;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.6fr 0.4fr 1.6fr 0.4fr 1.6fr;
     gap: 0px 0px;
     grid-template-areas:
-      "sousContainer1"
-      "sousContainer2"
-      "sousContainer3";
-}
-
-
-.sousContainer1{
+      "Formations"
+      "for"
+      "Experiences"
+      "exp"
+      "Informatique"
+      "inf";
+  }
+  
+  .Formations { grid-area: Formations; display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .Experiences { grid-area: Experiences; display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .Informatique { grid-area: Informatique; display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .for {
     display: grid;
+
+    border:  solid black 2px;
+    padding: 50px;
     grid-template-columns: 0.4fr 1.6fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "date def";
-    grid-area: sousContainer1;
-}
-.date {
+      "dte1 def1";
+    grid-area: for;
+  }
+  
+  .dte1 {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "date1"
+      "date2"
+      "date3"
+      "date4"
+      "date5"
+      "date6"
+      "date7"
+      "date8";
+    grid-area: dte1;
+  }
+  
+  .date1 { grid-area: date1; background-color: grey; color: #b8b8b8;          display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date2 { grid-area: date2; display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date3 { grid-area: date3; background-color: grey; color: #b8b8b8;          display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date4 { grid-area: date4; display: flex; 
+    justify-content: center; 
+    align-items: center; }
+  
+  .date5 { grid-area: date5; background-color: grey; color: #b8b8b8;          display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date6 { grid-area: date6; display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date7 { grid-area: date7; background-color: grey; color: #b8b8b8;          display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date8 { grid-area: date8; display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .def1 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
     grid-template-areas:
-      "date01"
-      "date02"
-      "date03"
-      "date04"
-      "date05"
-      "date06"
-      "date07"
-      "date08";
-    grid-area: date;
+      "def01"
+      "def02"
+      "def03"
+      "def04"
+      "def05"
+      "def06"
+      "def07"
+      "def08";
+    grid-area: def1;
   }
-.date01 { grid-area: date01; }
-.date02 { grid-area: date02; background-color: #4d4d4d; color:#b8b8b8;}
-.date03 { grid-area: date03; }
-.date04 { grid-area: date04; background-color: #4d4d4d;color:#b8b8b8;}
-.date05 { grid-area: date05; padding-left: 20px; color: #4d4d4d;}
-.date06 { grid-area: date06; background-color: #4d4d4d;color:#b8b8b8;}
-.date07 { grid-area: date07; padding-left: 20px; color: #4d4d4d;}
-.date08 { grid-area: date08; background-color: #4d4d4d;color:#b8b8b8;}
-
-.sousContainer2{
+  
+  .def01 { grid-area: def01; background-color: grey; color: #b8b8b8;}
+  
+  .def02 { grid-area: def02; }
+  
+  .def03 { grid-area: def03; background-color: grey; color: #b8b8b8;}
+  
+  .def04 { grid-area: def04; }
+  
+  .def05 { grid-area: def05; background-color: grey; color: #b8b8b8;}
+  
+  .def06 { grid-area: def06; }
+  
+  .def07 { grid-area: def07; background-color: grey; color: #b8b8b8;}
+  
+  .def08 { grid-area: def08; }
+  
+  .exp {
     display: grid;
+    padding: 50px;
+    border:  solid black 2px;
     grid-template-columns: 0.4fr 1.6fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "date2 def_2";
-    grid-area: sousContainer2;
-}
-
-.date2 {
+      "dt2 def2";
+    grid-area: exp;
+  }
+  
+  .dt2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
       "date2_1"
       "date2_2"
       "date2_3"
       "date2_4"
-      "date2_5"
-      "date2_6";
-    grid-area: date2;
-}
-.date2_1 { grid-area: date2_1; }
-.date2_2 { grid-area: date2_2; background-color: #4d4d4d;color:#b8b8b8; }
-.date2_3 { grid-area: date2_3; }
-.date2_4 { grid-area: date2_4; background-color: #4d4d4d;color:#b8b8b8;}
-.date2_5 { grid-area: date2_5; }
-.date2_6 { grid-area: date2_6; background-color: #4d4d4d;color:#b8b8b8;}
-
-.def {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "def1"
-    "def2"
-    "def3"
-    "def4"
-    "def5"
-    "def6"
-    "def7"
-    "def8";
-  grid-area: def;
+      "date2_5";
+    grid-area: dt2;
   }
-
-  .def1 { grid-area: def1; }
-  .def2 { grid-area: def2; background-color: #4d4d4d;color:#b8b8b8;}
-  .def3 { grid-area: def3; }
-  .def4 { grid-area: def4; background-color: #4d4d4d;color:#b8b8b8;}
-  .def5 { grid-area: def5; }
-  .def6 { grid-area: def6; background-color: #4d4d4d;color:#b8b8b8;}
-  .def7 { grid-area: def7; }
-  .def8 { grid-area: def8; background-color: #4d4d4d;color:#b8b8b8;}
   
-  .def_2 {
+  .date2_1 { grid-area: date2_1;           display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date2_2 { grid-area: date2_2;background-color: grey; color: #b8b8b8;          display: flex; 
+    justify-content: center; 
+    align-items: center; }
+  
+  .date2_3 { grid-area: date2_3;           display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date2_4 { grid-area: date2_4;background-color: grey; color: #b8b8b8;           display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .date2_5 { grid-area: date2_5;           display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .def2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
     grid-template-areas:
       "def2_1"
       "def2_2"
       "def2_3"
       "def2_4"
-      "def2_5"
-      "def2_6";
-    grid-area: def_2;
+      "def2_5";
+    grid-area: def2;
   }
   
   .def2_1 { grid-area: def2_1; }
-  .def2_2 { grid-area: def2_2; background-color: #4d4d4d;color:#b8b8b8;}
-  .def2_3 { grid-area: def2_3; }
-  .def2_4 { grid-area: def2_4; background-color: #4d4d4d;color:#b8b8b8;}
-  .def2_5 { grid-area: def2_5; }
-  .def2_6 { grid-area: def2_6; background-color: #4d4d4d;color:#b8b8b8;}
   
+  .def2_2 { grid-area: def2_2; background-color: grey; color: #b8b8b8;}
+  
+  .def2_3 { grid-area: def2_3; }
+  
+  .def2_4 { grid-area: def2_4; background-color: grey; color: #b8b8b8;}
+  
+  .def2_5 { grid-area: def2_5; }
+  
+  .inf {
+    display: grid;
+    padding: 50px;
+    border:  solid black 2px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "inf1"
+      "inf2"
+      "inf3"
+      "inf4";
+    grid-area: inf;
+    
+  }
+  
+  .inf1 { grid-area: inf1; 
+          background-color: grey; 
+          color: #b8b8b8;
+          display: flex; 
+          justify-content: center; 
+          align-items: center;}
+  
+  .inf2 { grid-area: inf2;           display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .inf3 { grid-area: inf3; background-color: grey; color: #b8b8b8;          display: flex; 
+    justify-content: center; 
+    align-items: center;}
+  
+  .inf4 { grid-area: inf4;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; }
+  
+
+
 .container2{
     padding-top: 50px;
     width: 30%;
