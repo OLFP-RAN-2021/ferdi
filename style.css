@@ -84,7 +84,7 @@ ol li a{
   .for {
     display: grid;
 
-    border:  solid black 2px;
+    border:  solid rgb(66, 66, 66) 5px;
     padding: 50px;
     grid-template-columns: 0.4fr 1.6fr;
     grid-template-rows: 1fr;
@@ -180,7 +180,7 @@ ol li a{
   .exp {
     display: grid;
     padding: 50px;
-    border:  solid black 2px;
+    border:  solid rgb(66, 66, 66) 5px;
     grid-template-columns: 0.4fr 1.6fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
@@ -250,7 +250,7 @@ ol li a{
   .inf {
     display: grid;
     padding: 50px;
-    border:  solid black 2px;
+    border:  solid rgb(66, 66, 66) 5px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
