@@ -53,7 +53,7 @@ ol li a{
 }
 
 .container1 {
-    padding-top: 50px;
+    padding-top: 20px;
     width:70%;
     background-color:#b8b8b8;
     display: grid;
@@ -326,3 +326,15 @@ ol li a{
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
+form{
+width: auto;
+padding: 5px;
+}
+
+.flexFormulaire{
+  display: block;
+  
+  
+}
+
